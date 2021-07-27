@@ -1,0 +1,189 @@
+
+.startup_nav  {
+    background-color:#721628;
+}
+
+.col-sm-12 {
+    padding:0rem;
+}
+
+.nav_links  {
+    display: flex !important;
+    list-style: none;
+   
+  
+    
+   
+}
+
+
+.register_now {
+    margin-top: 1rem;
+    background-color: #17B3E7;
+    color:white;
+}
+
+
+
+
+
+.logo {
+    width:60px;   
+  
+
+}
+
+
+
+
+.nav_container {
+display: flex;
+justify-content: space-between;
+}
+
+
+
+
+
+.all_footer  {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.footer_container{
+    margin-top: 1rem;
+    position: fixed;
+    height: 50px;
+    background-color: #721628;
+    bottom: 0px;
+    color:white;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.social_media_container  {
+    display: flex;
+   
+    justify-content: flex-end;
+}
+
+.social_media_links  {
+    padding-left: 3rem;
+}
+
+
+.rights_container {
+    text-align: center;
+}
+
+
+
+
+.startup_body_box  {
+   font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+   
+}
+
+
+.startup_body {
+    display: flex;
+  
+   
+}
+
+
+.button {
+background-color: white !important;
+}
+
+.startup_body span h3 {
+    color:#1262A0;
+}
+
+.think_picture {
+    width: 70px;
+    padding:0.5rem;
+    margin: 2rem;
+    border: 1px solid black;
+
+}
+
+
+
+.search_btn_container {
+    background-color: #1262A0;
+    color:white;
+}
+
+
+
+.search_box  {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+@media (min-width: 768px) {
+
+
+    .nav_links  {
+        display: flex !important;
+        list-style: none;
+        padding:1.6rem;
+       
+       
+    }
+    
+    .nav_links li a {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    
+    .logo {
+        width:100px;
+      
+        
+      
+    
+    }
+
+
+    .rights_container {
+       font-size: 2rem;
+    }
+    
+
+
+    .social_media_links  {
+        font-size: 2rem;
+    }
+
+
+    .startup_body_box  {
+        font-size: 1.5rem;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+       
+        
+     }
+
+
+     .think_picture {
+        width: 100px;
+        padding:0.5rem;
+        margin: 2rem;
+        border: 1px solid black;
+    
+    }
+    
+
+
+}
